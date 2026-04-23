@@ -5,7 +5,7 @@ Production-Grade Text-to-SQL AI Agent (AWS Bedrock)
 
 An AI-powered system that converts natural language queries into executable SQL using Large Language Models (LLMs). This project enables non-technical users to interact with structured databases through simple English queries.
 
-📌 Overview
+# Overview
 
 This project implements a Text-to-SQL AI Agent that:
 
@@ -15,7 +15,7 @@ Returns structured results in a human-readable format
 
 Built with a GenAI + serverless architecture, the system leverages LLM reasoning, schema awareness, and agentic workflows for accurate query generation.
 
-🧠 Key Features
+# Key Features
 
 🔹 Natural Language → SQL conversion using LLMs
 
@@ -30,7 +30,7 @@ Built with a GenAI + serverless architecture, the system leverages LLM reasoning
 🔹 Fast and low-latency responses
 
 
-🏗️ Architecture
+# Architecture
 
 User Query
 
@@ -62,7 +62,7 @@ Response Formatting
    
 User Output
 
-⚙️ Tech Stack
+# Tech Stack
 
 LLM: AWS Bedrock
 
@@ -90,7 +90,7 @@ Query is validated and executed
 
 Results are returned in a readable format
 
-📊 Example
+# Example
 
 Input:
 
@@ -103,7 +103,7 @@ FROM orders
 WHERE order_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH)
 GROUP BY region;
 
-📈 Performance Optimizations
+# Performance Optimizations
 
 Prompt engineering for improved SQL accuracy
 
@@ -113,7 +113,7 @@ Query validation to prevent invalid SQL execution
 
 Optimized Lambda execution for low latency
 
-🔐 Future Improvements
+# Future Improvements
 
 Add query caching for faster responses
 
@@ -123,7 +123,7 @@ Add role-based access control
 
 Integrate with BI dashboards
 
-🤝 Use Cases
+# Use Cases
 
 Business analytics for non-technical users
 
@@ -133,7 +133,7 @@ Internal enterprise assistants
 
 Self-service BI systems
 
-📬 Contact
+# Contact
 
 Feel free to connect if you’re working on GenAI, LLMs, or AI Agents!
 
